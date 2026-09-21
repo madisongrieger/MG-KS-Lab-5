@@ -16,7 +16,7 @@ def ugly_number(n):
   """
   if n%2==0:
     return True
-  elif 
+  elif n%3==0:
     return True
   elif n%5==0:
     return True
