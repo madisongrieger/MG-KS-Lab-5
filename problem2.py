@@ -1,12 +1,17 @@
 def bologna_latin(string):
   """
-  ### add to the docstring, including additional doctests
+  string -> string
+  consumes a string and returns a string with the first letter moved to the end of the string together with an "ay"
   
   >>> bologna_latin("programming")
   "rogrammingpay"
   >>> bologna_latin("hello world")
   "ello worldhay"
   >>> bologna_latin("a")
-  ## what should happen here?
+  "aay"
+  >>> bologna_latin ("pumpkin")
+  "umpkinpay"
+  >>> bologna_latin ("fall")
+  "allfay"
   """
-  ## add your code here
+  return string[1:] + string[0] + "ay"
