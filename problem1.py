@@ -16,11 +16,11 @@ def ugly_number(n):
   """
   if n%2==0:
     return True
-  elif n%3==0:
+  elif 
     return True
   elif n%5==0:
     return True
   else:
     return False
   ugly_number(6)
-  print (True)
+  
