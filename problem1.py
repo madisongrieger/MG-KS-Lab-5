@@ -5,7 +5,7 @@ def ugly_number(n):
   
   >>> ugly_number(6)
   True
-  >>> ugly_numer(1)
+  >>> ugly_number(1)
   True
   >>> ugly_number(14)
   False
@@ -14,11 +14,11 @@ def ugly_number(n):
   >>> ugly_number(22)
   False
   """
-  if n//2==0:
+  if n%2==0:
     return True
-  elif n//3==0:
+  elif n%3==0:
     return True
-  elif n//5==0:
+  elif n%5==0:
     return True
   else:
     return False
