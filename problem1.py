@@ -22,4 +22,5 @@ def ugly_number(n):
     return True
   else:
     return False
-    
+  ugly_number(6)
+  print True
