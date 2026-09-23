@@ -13,6 +13,23 @@ def roman_to_decimal(string):
   result=0
  while len(string)>0:
    if string[0:2]== "IV"
-   result= result+4 
+   result= result + 4
    string = string[2:]
+ elif string[0:2]== "IX"
+   result= result + 9
+   string = string[2:]
+elif string[0:2]== "XL"
+   result= result + 40
+   string = string[2:]
+elif string[0:2]== "XC"
+   result= result + 90
+   string = string[2:]
+elif string[0:2]== "CD"
+   result= result + 400
+   string = string[2:]
+elif string[0:2]== "CM"
+   result= result + 900
+   string = string[2:]
+return result 
+
    
