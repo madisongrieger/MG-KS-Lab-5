@@ -1,6 +1,7 @@
 def roman_to_decimal(string):
   """
-  ### add to the docstring, including additional doctests
+ string -> whole number
+  takes in a string as a Roman numeral and returns the whole number it corresponds to.
 
   >>> roman_to_decimal("XIX")
   19
