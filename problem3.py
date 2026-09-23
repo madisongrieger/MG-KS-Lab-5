@@ -10,4 +10,9 @@ def roman_to_decimal(string):
   >>> roman_to_decimal("III")
   3
   """
-  ### add your code here
+  result=0
+ while len(string)>0:
+   if string[0:2]== "IV"
+   result= result+4 
+   string = string[2:]
+   
