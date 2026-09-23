@@ -14,7 +14,7 @@ def power_of_three(n):
   >>> power_of_three(33)
   False
   """
- if n<=0:
+  if n<=0:
       return false
    while n % 3 ==0:
      n= n // 3
