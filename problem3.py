@@ -17,7 +17,7 @@ X=10
 L=50
 C=100
 D=500
-M=100
+M=1000
 while len(string)>0:
    if string[0:2]== "IV":
    result= result + 4
