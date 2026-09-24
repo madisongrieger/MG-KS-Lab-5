@@ -9,6 +9,10 @@ def roman_to_decimal(string):
   1910
   >>> roman_to_decimal("III")
   3
+  >>> roman_to_decimal("CDXLI")
+  441
+  >>> roman_to_decimal("XDL")
+  560
   """
   result=0
   while len(string)>0:
