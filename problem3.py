@@ -37,4 +37,7 @@ def roman_to_decimal(string):
      elif string[0:2]== "CM":
          result= result + 900
          string = string[2:]
+     elif string[0:1]== "I":
+         result= result + 1
+         string = string[1:]
   return result 
