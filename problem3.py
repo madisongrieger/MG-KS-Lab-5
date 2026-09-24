@@ -11,13 +11,6 @@ def roman_to_decimal(string):
   3
   """
   result=0
-  I=1
-  V=5
-  X=10
-  L=50
-  C=100
-  D=500
-  M=1000
   while len(string)>0:
      if string[0:2]== "IV":
          result= result + 4
@@ -40,4 +33,23 @@ def roman_to_decimal(string):
      elif string[0:1]== "I":
          result= result + 1
          string = string[1:]
+     elif string[0:1]== "V":
+         result= result + 5
+         string = string[1:]
+     elif string[0:1]== "X":
+         result= result + 10
+         string = string[1:]
+    elif string[0:1]== "L":
+         result= result + 50
+         string = string[1:]
+    elif string[0:1]== "C":
+         result= result + 100
+         string = string[1:]
+    elif string[0:1]== "D":
+         result= result + 500
+         string = string[1:]
+    elif string[0:1]== "M":
+         result= result + 1000
+         string = string[1:]
+  
   return result 
