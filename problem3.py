@@ -39,16 +39,16 @@ def roman_to_decimal(string):
      elif string[0:1]== "X":
          result= result + 10
          string = string[1:]
-    elif string[0:1]== "L":
+     elif string[0:1]== "L":
          result= result + 50
          string = string[1:]
-    elif string[0:1]== "C":
+     elif string[0:1]== "C":
          result= result + 100
          string = string[1:]
-    elif string[0:1]== "D":
+     elif string[0:1]== "D":
          result= result + 500
          string = string[1:]
-    elif string[0:1]== "M":
+     elif string[0:1]== "M":
          result= result + 1000
          string = string[1:]
   
